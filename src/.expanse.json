@@ -28,46 +28,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0,
-        0.5,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
@@ -133,9 +93,9 @@
     "07d32d3b-4fe7-4936-a487-f51d6c465f32": {
       "id": "07d32d3b-4fe7-4936-a487-f51d6c465f32",
       "position": [
-        -0.04989874931808956,
-        0,
-        0.859142865099507
+        -0.016632916439363186,
+        -0.1932815971626053,
+        0.909175010042682
       ],
       "rotation": [
         0,
@@ -144,13 +104,13 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
       "components": {},
       "gltfModel": {
         "src": {
@@ -161,20 +121,95 @@
         "loop": true
       },
       "name": "model_1.glb",
-      "order": 3.3943339486900275
+      "order": 11.90342671318004
     },
-    "1415763f-958f-4336-a8aa-9ae2b68f9727": {
-      "id": "1415763f-958f-4336-a8aa-9ae2b68f9727",
+    "396fca4a-ae3a-4077-9837-d1cc63a17fb5": {
+      "id": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
       "position": [
-        -1.515412412452909,
+        0,
+        0.5798447914878159,
+        -1.8683821650285393
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "Image"
+      },
+      "order": 6.8373895150392565
+    },
+    "38b8995e-b571-47bf-b7e0-0bc0c3464ee3": {
+      "id": "38b8995e-b571-47bf-b7e0-0bc0c3464ee3",
+      "position": [
+        0.19234492224531854,
+        -0.1932815971626053,
+        0.6227940550095129
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.3333333333333333,
+        0.33333335107082723,
+        0.33333335107082723
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Gatos_Chroma.mp4"
+        }
+      },
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
+      "components": {
+        "dbf7de43-5efc-4224-9c1f-01ad92d2611e": {
+          "id": "dbf7de43-5efc-4224-9c1f-01ad92d2611e",
+          "name": "Chroma Key",
+          "parameters": {
+            "keyRed": 12,
+            "keyGreen": 230,
+            "keyBlue": 13,
+            "tolerance": 0.12
+          }
+        }
+      },
+      "name": "Plane",
+      "order": 9.297907765384462
+    },
+    "284d12b0-ee77-4090-ad06-b7899d83b5bb": {
+      "id": "284d12b0-ee77-4090-ad06-b7899d83b5bb",
+      "position": [
+        -1.7575683835270686,
         0,
         0
       ],
       "rotation": [
-        -0.707106799999999,
         0,
         0,
-        0.7071067623730954
+        0,
+        1
       ],
       "scale": [
         1,
@@ -191,26 +226,85 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/Gato_Chroma.mp4"
+          "asset": "assets/social.png"
         }
       },
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "e4bc3c0c-8d22-4f9a-8f16-623e531dea36": {
-          "id": "e4bc3c0c-8d22-4f9a-8f16-623e531dea36",
-          "name": "Chroma Key",
-          "parameters": {
-            "enabled": true,
-            "keyRed": 103,
-            "keyGreen": 176,
-            "keyBlue": 71,
-            "tolerance": 0.08,
-            "softness": 0.04
-          }
+      "components": {},
+      "name": "Plane (1)",
+      "order": 8.668981375421213
+    },
+    "baec7759-26ed-4725-893b-fb1f1d84732c": {
+      "id": "baec7759-26ed-4725-893b-fb1f1d84732c",
+      "position": [
+        -3.0708491179509037,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/social.png"
         }
       },
-      "name": "Plane",
-      "order": 5.084340219238182
+      "components": {},
+      "name": "Plane (2)",
+      "order": 10.241573713558994,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "e2c9efee-2b5c-4d22-8ecc-9ed9189e10e0": {
+      "id": "e2c9efee-2b5c-4d22-8ecc-9ed9189e10e0",
+      "position": [
+        -4.371730488679312,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/social.png"
+        }
+      },
+      "components": {},
+      "name": "Plane (3)",
+      "order": 12.067537180187776,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     }
   },
   "spaces": {
