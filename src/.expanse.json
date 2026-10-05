@@ -50,9 +50,9 @@
       },
       "name": "Box",
       "position": [
-        0,
-        0.5,
-        0
+        -0.15904300560547613,
+        -0.39411782608802587,
+        0.2814461237829516
       ],
       "rotation": [
         0,
@@ -61,20 +61,21 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.1901157470330232,
+        0.1882792637127193,
+        0.4863225683262317
       ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "db5137eb-9d88-4c7c-9b4a-4c14d75682af",
       "order": 1.4038940050501252
     },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -133,9 +134,42 @@
     "07d32d3b-4fe7-4936-a487-f51d6c465f32": {
       "id": "07d32d3b-4fe7-4936-a487-f51d6c465f32",
       "position": [
-        -0.04989874931808956,
+        -0.14957877835155498,
+        -0.3248060436627268,
+        0.23966320069951486
+      ],
+      "rotation": [
         0,
-        0.859142865099507
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.3958361283662714,
+        0.3289909657356771,
+        0.41803382628095254
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "db5137eb-9d88-4c7c-9b4a-4c14d75682af",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/model_1.glb"
+        },
+        "animationClip": "*",
+        "loop": true
+      },
+      "name": "model_1.glb",
+      "order": 3.3943339486900275
+    },
+    "db5137eb-9d88-4c7c-9b4a-4c14d75682af": {
+      "id": "db5137eb-9d88-4c7c-9b4a-4c14d75682af",
+      "position": [
+        1.1957420174470093,
+        0.5182186659733292,
+        0
       ],
       "rotation": [
         0,
@@ -152,16 +186,11 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model_1.glb"
-        },
-        "animationClip": "Arm_Combo_Muay_Thai_Clean",
-        "loop": true
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "Image"
       },
-      "name": "model_1.glb",
-      "order": 3.3943339486900275
+      "order": 4.4345822665696994
     }
   },
   "spaces": {
