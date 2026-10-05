@@ -162,6 +162,55 @@
       },
       "name": "model_1.glb",
       "order": 3.3943339486900275
+    },
+    "1415763f-958f-4336-a8aa-9ae2b68f9727": {
+      "id": "1415763f-958f-4336-a8aa-9ae2b68f9727",
+      "position": [
+        -1.515412412452909,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Gato_Chroma.mp4"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "e4bc3c0c-8d22-4f9a-8f16-623e531dea36": {
+          "id": "e4bc3c0c-8d22-4f9a-8f16-623e531dea36",
+          "name": "Chroma Key",
+          "parameters": {
+            "enabled": true,
+            "keyRed": 103,
+            "keyGreen": 176,
+            "keyBlue": 71,
+            "tolerance": 0.08,
+            "softness": 0.04
+          }
+        }
+      },
+      "name": "Plane",
+      "order": 5.084340219238182
     }
   },
   "spaces": {
