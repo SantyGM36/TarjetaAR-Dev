@@ -43,15 +43,15 @@
       "material": null,
       "name": "Camera",
       "position": [
-        0,
-        2,
-        3
+        -0.03793735457564118,
+        1.2556673152388307,
+        3.0000000000000004
       ],
       "rotation": [
-        0.0004436887233141012,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        0.0008219920783654904,
+        0.9997219331581308,
+        -0.023518419626025307,
+        0.0015048687274628334
       ],
       "scale": [
         1,
@@ -201,8 +201,8 @@
     "284d12b0-ee77-4090-ad06-b7899d83b5bb": {
       "id": "284d12b0-ee77-4090-ad06-b7899d83b5bb",
       "position": [
-        -0.5427138835940772,
-        -0.2837170692396782,
+        -0.9086760079984348,
+        2.2587831292473326,
         0
       ],
       "rotation": [
@@ -212,9 +212,9 @@
         1
       ],
       "scale": [
-        1,
-        1.0000000532124818,
-        1.0000000532124818
+        0.5,
+        0.5,
+        0.5
       ],
       "geometry": {
         "type": "plane",
@@ -233,21 +233,22 @@
       "components": {
         "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4": {
           "id": "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4",
-          "name": "Open URL UI Button",
+          "name": "Open URL 3D Object",
           "parameters": {
             "url": "https://www.tiktok.com/@santiagomora7_/video/7689646252987829512?q=santiagomora%207&t=1791340490568",
-            "enabled": true
+            "enabled": true,
+            "openInNewTab": true
           }
         }
       },
       "name": "Plane (1)",
       "order": 8.668981375421213
     },
-    "baec7759-26ed-4725-893b-fb1f1d84732c": {
-      "id": "baec7759-26ed-4725-893b-fb1f1d84732c",
+    "68e87e53-d658-4296-9bba-94762d25ec65": {
+      "id": "68e87e53-d658-4296-9bba-94762d25ec65",
       "position": [
-        -3.0708491179509037,
-        0.5238577357377492,
+        -0.05055767268906486,
+        2.2587831292473326,
         0
       ],
       "rotation": [
@@ -257,9 +258,9 @@
         1
       ],
       "scale": [
-        1,
-        1.0000000532124818,
-        1.0000000532124818
+        0.5,
+        0.5,
+        0.5
       ],
       "geometry": {
         "type": "plane",
@@ -271,19 +272,29 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/social.png"
+          "asset": "assets/LOGO_IG.png"
         }
       },
-      "components": {},
+      "components": {
+        "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4": {
+          "id": "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "url": "https://www.instagram.com/santigomezm__/",
+            "enabled": true,
+            "openInNewTab": true
+          }
+        }
+      },
       "name": "Plane (2)",
-      "order": 10.241573713558994,
+      "order": 10.232326123320334,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     },
-    "e2c9efee-2b5c-4d22-8ecc-9ed9189e10e0": {
-      "id": "e2c9efee-2b5c-4d22-8ecc-9ed9189e10e0",
+    "e40abb12-5fa1-4a8e-b596-4373af067633": {
+      "id": "e40abb12-5fa1-4a8e-b596-4373af067633",
       "position": [
-        -4.44967126677709,
-        0.5238577357377492,
+        0.8835193112297748,
+        2.2587831292473326,
         0
       ],
       "rotation": [
@@ -293,9 +304,9 @@
         1
       ],
       "scale": [
-        1,
-        1.0000000532124818,
-        1.0000000532124818
+        0.5,
+        0.5,
+        0.5
       ],
       "geometry": {
         "type": "plane",
@@ -310,9 +321,19 @@
           "asset": "assets/social.png"
         }
       },
-      "components": {},
+      "components": {
+        "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4": {
+          "id": "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "url": "https://open.spotify.com/intl-es/track/2NNI2CyoMZxk6D8NQGnTgH?si=qssZNWlER82tqg2hMq-c3Q&utm_source=copy-link&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafEPNnnhiRLOhCP01uLi7EufdKbKVlZGhZKreWs2Q20HUi_-zQY3HZdUXbPlA_aem_gwWzVEkvIrquDbhf9yNb5g&nd=1&dlsi=c8ac78535fda44c2&autoplay_ok=1",
+            "enabled": true,
+            "openInNewTab": true
+          }
+        }
+      },
       "name": "Plane (3)",
-      "order": 12.067537180187776,
+      "order": 11.38313686799735,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     }
   },
