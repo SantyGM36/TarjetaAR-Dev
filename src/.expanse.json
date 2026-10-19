@@ -32,9 +32,10 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -93,9 +94,9 @@
     "07d32d3b-4fe7-4936-a487-f51d6c465f32": {
       "id": "07d32d3b-4fe7-4936-a487-f51d6c465f32",
       "position": [
-        -0.04989874931808956,
-        0,
-        0.8591428650995065
+        -0.016632916439363186,
+        -0.5019966942371569,
+        0.4028880750342755
       ],
       "rotation": [
         0,
@@ -104,13 +105,13 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
       "components": {},
       "gltfModel": {
         "src": {
@@ -121,7 +122,7 @@
         "loop": true
       },
       "name": "model_1.glb",
-      "order": 4.725444492569787
+      "order": 2.6690738534544596
     },
     "396fca4a-ae3a-4077-9837-d1cc63a17fb5": {
       "id": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
@@ -149,14 +150,15 @@
       "imageTarget": {
         "name": "Image"
       },
-      "order": 6.8373895150392565
+      "order": 6.8373895150392565,
+      "persistent": true
     },
     "38b8995e-b571-47bf-b7e0-0bc0c3464ee3": {
       "id": "38b8995e-b571-47bf-b7e0-0bc0c3464ee3",
       "position": [
-        -0.027930773426241506,
-        1.3160882572152648,
-        -0.04879891414789785
+        -0.009310257808747169,
+        -0.06330060849873542,
+        0.1002408152851404
       ],
       "rotation": [
         0,
@@ -165,9 +167,9 @@
         1
       ],
       "scale": [
-        2,
-        2.5,
-        2
+        0.6666666666666666,
+        0.8333333333333333,
+        0.6666666666666666
       ],
       "geometry": {
         "type": "plane",
@@ -182,7 +184,7 @@
           "asset": "assets/WhatsApp_Video_2026-10-06_at_210621.mp4"
         }
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
       "components": {
         "dbf7de43-5efc-4224-9c1f-01ad92d2611e": {
           "id": "dbf7de43-5efc-4224-9c1f-01ad92d2611e",
@@ -196,14 +198,14 @@
         }
       },
       "name": "Plane",
-      "order": 5.601092477438414
+      "order": 2.855684266732622
     },
     "284d12b0-ee77-4090-ad06-b7899d83b5bb": {
       "id": "284d12b0-ee77-4090-ad06-b7899d83b5bb",
       "position": [
-        -0.9086760079984348,
-        2.2587831292473326,
-        0
+        -0.22927919098174465,
+        0.25093101551195385,
+        0.11650712000110652
       ],
       "rotation": [
         0,
@@ -212,9 +214,9 @@
         1
       ],
       "scale": [
-        0.5,
-        0.5,
-        0.5
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
       ],
       "geometry": {
         "type": "plane",
@@ -226,30 +228,30 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/social.png"
+          "asset": "assets/Captura_de_pantalla_2026-10-19_a_las_94526_am.png"
         }
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5",
       "components": {
         "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4": {
           "id": "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4",
           "name": "Open URL 3D Object",
           "parameters": {
-            "url": "https://www.tiktok.com/@santiagomora7_/video/7689646252987829512?q=santiagomora%207&t=1791340490568",
+            "url": "https://www.tiktok.com/@santiagomora7_/photo/7697882701268798736",
             "enabled": true,
             "openInNewTab": true
           }
         }
       },
       "name": "Plane (1)",
-      "order": 8.668981375421213
+      "order": 3.0422946800107846
     },
     "68e87e53-d658-4296-9bba-94762d25ec65": {
       "id": "68e87e53-d658-4296-9bba-94762d25ec65",
       "position": [
-        -0.05055767268906486,
-        2.2587831292473326,
-        0
+        0.0020928325441117814,
+        0.25093101551195385,
+        0.11650712000110652
       ],
       "rotation": [
         0,
@@ -258,9 +260,9 @@
         1
       ],
       "scale": [
-        0.5,
-        0.5,
-        0.5
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
       ],
       "geometry": {
         "type": "plane",
@@ -287,15 +289,15 @@
         }
       },
       "name": "Plane (2)",
-      "order": 10.232326123320334,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+      "order": 3.2289050932889474,
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5"
     },
     "e40abb12-5fa1-4a8e-b596-4373af067633": {
       "id": "e40abb12-5fa1-4a8e-b596-4373af067633",
       "position": [
-        0.8835193112297748,
-        2.2587831292473326,
-        0
+        0.22601712277858965,
+        0.25093101551195385,
+        0.11650712000110652
       ],
       "rotation": [
         0,
@@ -304,9 +306,9 @@
         1
       ],
       "scale": [
-        0.5,
-        0.5,
-        0.5
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
       ],
       "geometry": {
         "type": "plane",
@@ -318,7 +320,7 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/social.png"
+          "asset": "assets/Captura_de_pantalla_2026-10-12_a_las_114648_am.png"
         }
       },
       "components": {
@@ -326,15 +328,15 @@
           "id": "740ce0b8-bde5-4f5a-94c3-ff1805c4dee4",
           "name": "Open URL 3D Object",
           "parameters": {
-            "url": "https://open.spotify.com/intl-es/track/2NNI2CyoMZxk6D8NQGnTgH?si=qssZNWlER82tqg2hMq-c3Q&utm_source=copy-link&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafEPNnnhiRLOhCP01uLi7EufdKbKVlZGhZKreWs2Q20HUi_-zQY3HZdUXbPlA_aem_gwWzVEkvIrquDbhf9yNb5g&nd=1&dlsi=c8ac78535fda44c2&autoplay_ok=1",
+            "url": "https://open.spotify.com/track/5XWfwjzFNl2pTB737fx7qr?autoplay_ok=1",
             "enabled": true,
             "openInNewTab": true
           }
         }
       },
       "name": "Plane (3)",
-      "order": 11.38313686799735,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+      "order": 3.4155155065671097,
+      "parentId": "396fca4a-ae3a-4077-9837-d1cc63a17fb5"
     }
   },
   "spaces": {
